@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Moccachino</title>
+  </head>
+  <body>
+    <header>
+      <span class="logo"><a href="#inicio">Moccachino</a></span>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="inicio">
+        <div class="inicio-imagen">
+          <img src="./imagenes/coffee-leaf.jpg" alt="taza de cafe" />
+        </div>
+        <div class="inicio-contenido">
+          <h2>El mejor café</h2>
+          <p>
+            Voluptas minus similique hic fugit eos voluptatem nemo repellat
+            accusamus adipisci beatae?
+          </p>
+          <button>Productos</button>
+        </div>
+      </section>
+      <section id="menu" class="menu">
+        <h2>Menú</h2>
+        <div class="menu-cards">
+          <div class="card">
+            <img src="imagenes/latte.jpg" alt="latte" />
+            <div class="card-content">
+              <h3>Latte</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                repellat officiis maxime praesentium itaque eligendi ratione
+                architecto dignissimos.
+              </p>
+              <button>Ordenar</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/espresso.jpg" alt="espresso" />
+            <div class="card-content">
+              <h3>Espresso</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                repellat officiis maxime praesentium itaque eligendi ratione
+                architecto dignissimos.
+              </p>
+              <button>Ordenar</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/cappuccino.jpg" alt="cappuccino" />
+            <div class="card-content">
+              <h3>Cappuccino</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                repellat officiis maxime praesentium itaque eligendi ratione
+                architecto dignissimos.
+              </p>
+              <button>Ordenar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <div class="ubicacion">
+          <div class="ubicacion-contenido">
+            <h3>Encuéntranos más cerca de ti</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              natus sequi ipsam.
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.527955508207!2d-87.21417912513832!3d14.045972186377277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd7083630a35%3A0x733583705d96ac96!2sEspresso%20Americano%20%E2%80%A2%20Paseo%20Loarque!5e0!3m2!1sde!2shn!4v1723084050321!5m2!1sde!2shn"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section id="contacto">
+        <h2>Contáctanos</h2>
+        <div class="contacto">
+          <form>
+            <div class="form-inputs">
+              <label for="primer-nombre">
+                Primer nombre
+                <input
+                  id="primer-nombre"
+                  type="text"
+                  autocomplete="off"
+                  placeholder="Nombre"
+                />
+              </label>
+              <label for="apellido">
+                Apellido
+                <input
+                  id="apellido"
+                  type="text"
+                  autocomplete="off"
+                  placeholder="Apellido"
+                />
+              </label>
+              <label for="correo" class="correo">
+                Correo
+                <input
+                  id="correo"
+                  type="email"
+                  autocomplete="off"
+                  placeholder="correo@ejemplo.com"
+                />
+              </label>
+              <label for="mensaje" class="mensaje">
+                Mensaje
+                <textarea id="mensaje" placeholder="Mensaje"></textarea>
+              </label>
+            </div>
+            <button>Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span class="logo">Moccachino</span>
+      <span> &copy; 2024 Moccachino. Derechos Reservados.</span>
+    </footer>
+  </body>
+</html>
